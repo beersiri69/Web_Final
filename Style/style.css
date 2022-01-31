@@ -1,0 +1,61 @@
+body{
+    background-color: #1f2833;
+    
+    font-family:"Exo"
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}   
+
+label{
+    color: aliceblue;
+    padding-left: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.2rem;
+}
+
+.container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+i{
+    font-size: 2rem;
+    color: #66fcf1;
+}
+  
+.form-control{
+    
+    border-radius:2rem;
+}
+
+.submitbtn{
+    background: #66fcf1;
+    
+    margin-left: 70%;
+    margin-top: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    border-radius:.9rem;
+    outline:none; border-style: none; 
+}
+
+.submitbtn:hover, .submitbtn:active, .submitbtn:focus { outline: none; border-style: none; }
+
+.submitbtn:hover{
+    background: #0c635d;
+}
+.submitbtn:active{
+    color:white;
+    background: #111111;
+}
+
+
+
