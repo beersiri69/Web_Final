@@ -1,0 +1,38 @@
+.nav2{
+    font-weight: 600;
+    height: 11%;
+    justify-content: right;
+    align-items: center;
+}
+.nav2content{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+
+ul.nav2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+li.nav2{
+    float: left;
+    
+}
+
+li.nav2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+  }
+  
+li.nav2 a:hover {
+    background: #0c635d;
+}
+li.nav2 a:active {
+    background-color: #111111;
+}
