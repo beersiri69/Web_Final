@@ -1,15 +1,48 @@
 .nav2{
     font-weight: 600;
-    height: 11%;
+    height: 7%;
     justify-content: right;
     align-items: center;
 }
 .nav2content{
-    border:0;
-    padding: 0;
-    margin: 0;
+  padding:0;
+  margin: 0;
+  border:0;
 }
 
+.nav3{
+    font-weight: 600;
+    height: 4%;
+    justify-content: right;
+    align-items: center;
+}
+.nav3content{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    align-items: center;
+}
+
+.toggle-on{
+    font-weight: 600;
+    background: #4df49e;
+    border-radius:.3rem;
+    padding-right:2rem;
+    padding-left:2rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    outline:none; border-style: none; 
+}
+.toggle-off{
+    font-weight: 600;
+    color:white;
+    background: #3a4653;
+    border-radius:.3rem;
+    padding-right:2rem;
+    padding-left:2rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    outline:none; border-style: none; 
+}
 ul.nav2{
     list-style-type: none;
     margin: 0;
